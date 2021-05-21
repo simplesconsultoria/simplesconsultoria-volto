@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<registry>
+  <record name="plone.available_languages" interface="plone.i18n.interfaces.ILanguageSchema" field="available_languages">
+    <value>
+      <element>pt-br</element>
+      <element>en</element>
+    </value>
+  </record>
+  <record name="plone.default_language" interface="Products.CMFPlone.interfaces.controlpanel.ILanguageSchema" field="default_language">
+    <value>en</value>
+  </record>
+  <records interface="Products.CMFPlone.interfaces.ILanguageSchema" prefix="plone">
+    <value key="use_cookie_negotiation">True</value>
+    <value key="use_path_negotiation">True</value>
+    <value key="display_flags">True</value>
+  </records>
+
+</registry>

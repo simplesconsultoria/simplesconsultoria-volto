@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="simplesconsultoria.volto">
+
+  <i18n:registerTranslations directory="locales" />
+
+  <include package="collective.folderishtypes" />
+  <include package="plone.restapi" />
+
+  <include file="permissions.zcml" />
+
+  <include file="profiles.zcml" />
+
+  <!-- -*- extra stuff goes here -*- -->
+
+  <include package=".cors" />
+  <include package=".browser" />
+
+</configure>
