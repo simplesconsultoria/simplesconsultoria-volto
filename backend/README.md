@@ -1,6 +1,6 @@
 # simplesconsultoria.volto
 
-Demo policy package to setup a volto site.
+Demo policy package to setup a simple volto site.
 
 ## Features
 
@@ -14,7 +14,7 @@ Implement CORS settings for this package
 
 ### Initial content
 
-This package contains the initial content for the simplesconsultoria.com.br website.
+This package contains a simple volto configuration.
 
 Installation
 ------------
