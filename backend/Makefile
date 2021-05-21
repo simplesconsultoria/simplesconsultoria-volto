@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 NOW:=$(shell date -u +"%Y%m%d%H%M%S")
 PACKAGE_NAME = simplesconsultoria.volto
-PACKAGE_PATH = src/simplesconsultoria.volto
+PACKAGE_PATH = src/simplesconsultoria/volto
 IMAGE_NAME = simplesconsultoria/simplesconsultoria.volto
 CHECK_PATH   = setup.py scripts/ $(PACKAGE_PATH)
 
